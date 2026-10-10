@@ -1,0 +1,111 @@
+
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: rgb(130, 173, 236); 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: #d7e4ff;
+            width: 100%;
+            max-width: 480px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #222;
+            margin-bottom: 25px;
+            font-weight: 700;
+        }
+
+        
+        .profile-pic-container {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #3b82f6; 
+            background-color: #ccc;
+        }
+
+        
+        h2 {
+            font-size: 20px;
+            color: #111;
+            margin-bottom: 6px;
+        }
+
+        .class-info {
+            font-size: 15px;
+            color: #4b5563;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .link-btn {
+            display: block;
+            padding: 14px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 30px; 
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .link-btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        
+        .btn-instagram {
+            background-color: #1e3a8a; 
+        }
+
+        .btn-tiktok {
+            background-color: #374151; 
+        }
+
+        .btn-spotify {
+            background-color : rgb(123, 123, 220); 
+        }
+
+        .btn-youtube {
+            background-color: rgb(113, 158, 255); 
+        }
+    
